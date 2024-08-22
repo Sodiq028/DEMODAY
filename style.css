@@ -100,7 +100,7 @@ header li:active {
     opacity: 70%;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1041px) {
     .container {
         padding: 0 100px;
     }
@@ -535,7 +535,9 @@ header li:active {
 /* -----------------------------------------------TEXT----------------------------------------------- */
 
 .text {
-    height: 400px;
+    display: flex;
+    align-items: center;
+    height: 300px;
     margin-top: 50px;
 }
 
@@ -550,9 +552,43 @@ p span {
     text-align: start;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 430px) {
+    .text p {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 500px) {
     .text {
         height: 400px;
+    }
+
+    .text p {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media (min-width: 600px) {
+    .text p {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .text {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .text {
+        height: 300px;
+    }
+}
+
+@media (min-width: 700px) {
+    .text {
+        height: 600px;
         margin-top: 100px;
     }
 
@@ -570,6 +606,8 @@ p span {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 50px;
 }
 
@@ -606,7 +644,7 @@ p span {
 
 @media (min-width: 700px) {
     .brends {
-        height: 800px;
+        height: 1500px;
     }
 
     .brends h1 {
@@ -628,6 +666,18 @@ p span {
     .brend img {
         width: 160px;
         height: 30px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .brends {
+        height: 1200px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .brends {
+        height: 1100px;
     }
 }
 
@@ -681,7 +731,7 @@ p span {
     width: 320px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     .platform {
         height: 1900px;
     }
@@ -992,7 +1042,7 @@ p span {
     opacity: 90%;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1150px) {
     .cards {
         height: 1000px;
     }
@@ -1096,7 +1146,7 @@ footer li:active {
     opacity: 70%;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     footer {
         height: 80px;
         display: flex;
